@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+    main{
+        flex-direction: column;
+    }
+    .container-left{
+        width: 100%;
+    }
+    .card-left-content{
+        display: flex;
+        align-items: center;
+    }
+    .links{
+        display: flex;
+        align-items: center;
+    }
+    .card-left-content h2{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 440px) {
+    .card-left-content h2{
+        font-size: 2rem;
+    }
+    .card-left-content p{
+        font-size: 0.8rem;
+    }
+    .links a{
+        margin: 10px;
+    }
+}
+@media (max-width: 344px) {
+
+    .card-left-content h2{
+        font-size: 1.5rem;
+    }
+}
